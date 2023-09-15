@@ -1,7 +1,12 @@
+using Microsoft.EntityFrameworkCore;
+using WebApplication1.Models;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<Context>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("Test") ?? throw new InvalidOperationException("Connection string Test not found.")));
 
 var app = builder.Build();
 

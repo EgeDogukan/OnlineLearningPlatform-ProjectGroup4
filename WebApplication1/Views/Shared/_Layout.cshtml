@@ -46,7 +46,7 @@
                             <div class="full">
                                 <div class="center-desk">
                                     <div class="logo">
-                                        <a href="index.html"><img src="images/logo.png" alt="#" /></a>
+                                        <a href="Home/Index"><img src="images/logo.png" alt="#" /></a>
                                     </div>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
                                     <div class="limit-box">
                                         <nav class="main-menu ">
                                             <ul class="menu-area-main">
-                                                <li class="active"> <a href="index.html">Home</a> </li>
+                                                <li class="active"> <a href="Home/Index">Home</a> </li>
                                                 <li> <a href="#courses">My Courses </a> </li>
                                                 <li> <a href="#about">About</a> </li>
                                                 <li> <a href="#learn">My Profile</a> </li>
@@ -68,7 +68,7 @@
                                     </div>
                                 </div>
                                 <div class="mean-last">
-                                    <a href="#"><img src="images/search_icon.png" alt="#" /></a> <a href="#">Login/Sign Up</a>
+                                    <a class="navbar-brand" asp-area="" asp-controller="" asp-action="Login">Login/Sign Up</a>
                                 </div>
                             </div>
                         </div>
@@ -77,10 +77,10 @@
             </div>
             <!-- end header inner -->
             <!-- end header -->
+        </div>
+    </header>
             <div class="container">
-                <main role="main" class="pb-3">
                     @RenderBody()
-                </main>
             </div>
 
             <<!--  footer -->
@@ -88,17 +88,6 @@
                 <div class="footer ">
                     <div class="container">
                         <div class="row">
-
-                            <div class="col-md-12">
-                                <form class="news">
-                                    <input class="newslatter" placeholder="Email" type="text" name=" Email">
-                                    <button class="submit">Subscribe</button>
-                                </form>
-                            </div>
-                            <div class="col-md-12">
-                                <h2>Newsletter</h2>
-                                <span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in  </span>
-                            </div>
                             <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 ">
                                 <div class="row">
                                     <div class="col-xl-3 col-lg-3 col-md-6 col-sm-6 ">
@@ -152,7 +141,7 @@
 
                                     <div class="col-lg-3 col-md-6 col-sm-6 ">
                                         <div class="address">
-                                            <a href="index.html"> <img src="images/logo1.jpg" alt="logo"></a>
+                                            <a href="Home/Index"> <img src="images/logo1.jpg" alt="logo"></a>
                                         </div>
                                     </div>
                                 </div>
@@ -160,11 +149,6 @@
 
                         </div>
 
-                    </div>
-                    <div class="copyright">
-                        <div class="container">
-                            <p>Copyright © 2019 Design by <a href="https://html.design/">Free Html Templates </a></p>
-                        </div>
                     </div>
                 </div>
                 
