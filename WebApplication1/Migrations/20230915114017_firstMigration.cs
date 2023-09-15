@@ -12,22 +12,23 @@ namespace WebApplication1.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "User",
+                name: "Users",
                 columns: table => new
                 {
                     UserId = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UserName = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    Password = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    Password = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    Role = table.Column<string>(type: "nvarchar(max)", nullable: true)
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_User", x => x.UserId);
+                    table.PrimaryKey("PK_Users", x => x.UserId);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Course",
+                name: "Courses",
                 columns: table => new
                 {
                     CourseId = table.Column<int>(type: "int", nullable: false)
@@ -41,16 +42,16 @@ namespace WebApplication1.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Course", x => x.CourseId);
+                    table.PrimaryKey("PK_Courses", x => x.CourseId);
                     table.ForeignKey(
-                        name: "FK_Course_User_InstructorId",
+                        name: "FK_Courses_Users_InstructorId",
                         column: x => x.InstructorId,
-                        principalTable: "User",
+                        principalTable: "Users",
                         principalColumn: "UserId");
                 });
 
             migrationBuilder.CreateTable(
-                name: "Assignment",
+                name: "Assignments",
                 columns: table => new
                 {
                     AssignmentId = table.Column<int>(type: "int", nullable: false)
@@ -62,17 +63,17 @@ namespace WebApplication1.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Assignment", x => x.AssignmentId);
+                    table.PrimaryKey("PK_Assignments", x => x.AssignmentId);
                     table.ForeignKey(
-                        name: "FK_Assignment_Course_CourseId",
+                        name: "FK_Assignments_Courses_CourseId",
                         column: x => x.CourseId,
-                        principalTable: "Course",
+                        principalTable: "Courses",
                         principalColumn: "CourseId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateTable(
-                name: "Enrollment",
+                name: "Enrollments",
                 columns: table => new
                 {
                     EnrollmentId = table.Column<int>(type: "int", nullable: false)
@@ -83,39 +84,39 @@ namespace WebApplication1.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_Enrollment", x => x.EnrollmentId);
+                    table.PrimaryKey("PK_Enrollments", x => x.EnrollmentId);
                     table.ForeignKey(
-                        name: "FK_Enrollment_Course_CourseId",
+                        name: "FK_Enrollments_Courses_CourseId",
                         column: x => x.CourseId,
-                        principalTable: "Course",
+                        principalTable: "Courses",
                         principalColumn: "CourseId",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
-                        name: "FK_Enrollment_User_UserId",
+                        name: "FK_Enrollments_Users_UserId",
                         column: x => x.UserId,
-                        principalTable: "User",
+                        principalTable: "Users",
                         principalColumn: "UserId",
                         onDelete: ReferentialAction.Cascade);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_Assignment_CourseId",
-                table: "Assignment",
+                name: "IX_Assignments_CourseId",
+                table: "Assignments",
                 column: "CourseId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Course_InstructorId",
-                table: "Course",
+                name: "IX_Courses_InstructorId",
+                table: "Courses",
                 column: "InstructorId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Enrollment_CourseId",
-                table: "Enrollment",
+                name: "IX_Enrollments_CourseId",
+                table: "Enrollments",
                 column: "CourseId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_Enrollment_UserId",
-                table: "Enrollment",
+                name: "IX_Enrollments_UserId",
+                table: "Enrollments",
                 column: "UserId");
         }
 
@@ -123,16 +124,16 @@ namespace WebApplication1.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "Assignment");
+                name: "Assignments");
 
             migrationBuilder.DropTable(
-                name: "Enrollment");
+                name: "Enrollments");
 
             migrationBuilder.DropTable(
-                name: "Course");
+                name: "Courses");
 
             migrationBuilder.DropTable(
-                name: "User");
+                name: "Users");
         }
     }
 }

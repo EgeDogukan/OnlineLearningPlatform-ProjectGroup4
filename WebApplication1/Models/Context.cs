@@ -4,10 +4,10 @@ namespace WebApplication1.Models
 {
     public class Context : DbContext
     {
-        public DbSet<User> User { get; set; }
-        public DbSet<Assignment> Assignment { get; set; }
-        public DbSet<Course> Course { get; set; }
-        public DbSet<Enrollment> Enrollment { get; set; }
+        public DbSet<User> Users { get; set; }
+        public DbSet<Assignment> Assignments { get; set; }
+        public DbSet<Course> Courses { get; set; }
+        public DbSet<Enrollment> Enrollments { get; set; }
 
 
 

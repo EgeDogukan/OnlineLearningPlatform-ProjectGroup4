@@ -47,7 +47,7 @@ namespace WebApplication1.Migrations
 
                     b.HasIndex("CourseId");
 
-                    b.ToTable("Assignment");
+                    b.ToTable("Assignments");
                 });
 
             modelBuilder.Entity("WebApplication1.Models.Course", b =>
@@ -80,7 +80,7 @@ namespace WebApplication1.Migrations
 
                     b.HasIndex("InstructorId");
 
-                    b.ToTable("Course");
+                    b.ToTable("Courses");
                 });
 
             modelBuilder.Entity("WebApplication1.Models.Enrollment", b =>
@@ -108,7 +108,7 @@ namespace WebApplication1.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("Enrollment");
+                    b.ToTable("Enrollments");
                 });
 
             modelBuilder.Entity("WebApplication1.Models.User", b =>
@@ -125,12 +125,15 @@ namespace WebApplication1.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<string>("Role")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("UserName")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("UserId");
 
-                    b.ToTable("User");
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("WebApplication1.Models.Assignment", b =>
