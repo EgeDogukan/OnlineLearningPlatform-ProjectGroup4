@@ -1,263 +1,827 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\WebApplication1.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebApplication1.bundle.scp.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/obj/Debug/net6.0/scopedcss/projectbundle/WebApplication1.bundle.scp.css",
+      "PackagePath": "staticwebassets/WebApplication1.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\css\\site.css",
-      "PackagePath": "staticwebassets\\css\\site.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/.DS_Store",
+      "PackagePath": "staticwebassets/css/.DS_Store"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\favicon.ico",
-      "PackagePath": "staticwebassets\\favicon.ico"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/animate.min.css",
+      "PackagePath": "staticwebassets/css/animate.min.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\js\\site.js",
-      "PackagePath": "staticwebassets\\js\\site.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/css/bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\LICENSE",
-      "PackagePath": "staticwebassets\\lib\\bootstrap"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/css/bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap.css",
+      "PackagePath": "staticwebassets/css/bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/css/bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/default-skin.css",
+      "PackagePath": "staticwebassets/css/default-skin.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/font-awesome.min.css",
+      "PackagePath": "staticwebassets/css/font-awesome.min.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/icomoon.css",
+      "PackagePath": "staticwebassets/css/icomoon.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/jquery-ui.css",
+      "PackagePath": "staticwebassets/css/jquery-ui.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets/css/jquery.fancybox.min.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/jquery.mCustomScrollbar.min.css",
+      "PackagePath": "staticwebassets/css/jquery.mCustomScrollbar.min.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/meanmenu.css",
+      "PackagePath": "staticwebassets/css/meanmenu.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/nice-select.css",
+      "PackagePath": "staticwebassets/css/nice-select.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/normalize.css",
+      "PackagePath": "staticwebassets/css/normalize.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/owl.carousel.min.css",
+      "PackagePath": "staticwebassets/css/owl.carousel.min.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/responsive.css",
+      "PackagePath": "staticwebassets/css/responsive.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/site.css",
+      "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/slick.css",
+      "PackagePath": "staticwebassets/css/slick.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/favicon.ico",
+      "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/fonts/FontAwesome.otf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/IcoMoon-Free.ttf",
+      "PackagePath": "staticwebassets/fonts/IcoMoon-Free.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-Black.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-Black.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-BlackItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-BlackItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-Bold.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-Bold.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-BoldItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-BoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-ExtraBold.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-ExtraBold.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-ExtraBoldItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-ExtraBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-ExtraLight.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-ExtraLight.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-ExtraLightItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-ExtraLightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-Italic.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-Italic.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-Light.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-Light.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-LightItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-LightItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-Medium.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-Medium.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-MediumItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-MediumItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-Regular.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-Regular.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-SemiBold.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-SemiBold.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-SemiBoldItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-SemiBoldItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
-      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-Thin.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-Thin.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/Poppins-ThinItalic.ttf",
+      "PackagePath": "staticwebassets/fonts/Poppins-ThinItalic.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.eot"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.svg"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.ttf"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/fonts/fontawesome-webfont.woff2"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/icon/1.png",
+      "PackagePath": "staticwebassets/icon/1.png"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/icon/2.png",
+      "PackagePath": "staticwebassets/icon/2.png"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\LICENSE.txt",
-      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/icon/3.png",
+      "PackagePath": "staticwebassets/icon/3.png"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/icon/call.png",
+      "PackagePath": "staticwebassets/icon/call.png"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/icon/email.png",
+      "PackagePath": "staticwebassets/icon/email.png"
     },
     {
-      "Id": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
-      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/icon/fb.png",
+      "PackagePath": "staticwebassets/icon/fb.png"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/icon/instagram.png",
+      "PackagePath": "staticwebassets/icon/instagram.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/icon/lin(2).png",
+      "PackagePath": "staticwebassets/icon/lin(2).png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/icon/loc.png",
+      "PackagePath": "staticwebassets/icon/loc.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/icon/tw.png",
+      "PackagePath": "staticwebassets/icon/tw.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/3.png",
+      "PackagePath": "staticwebassets/images/3.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/about.jpg",
+      "PackagePath": "staticwebassets/images/about.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/about_bg.png",
+      "PackagePath": "staticwebassets/images/about_bg.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/banner2.jpg",
+      "PackagePath": "staticwebassets/images/banner2.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/img.jpg",
+      "PackagePath": "staticwebassets/images/img.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/img2.png",
+      "PackagePath": "staticwebassets/images/img2.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/loading.gif",
+      "PackagePath": "staticwebassets/images/loading.gif"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/logo1.jpg",
+      "PackagePath": "staticwebassets/images/logo1.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/make_img.jpg",
+      "PackagePath": "staticwebassets/images/make_img.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/map.jpg",
+      "PackagePath": "staticwebassets/images/map.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/my1.jpg",
+      "PackagePath": "staticwebassets/images/my1.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/my2.jpg",
+      "PackagePath": "staticwebassets/images/my2.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/my3.jpg",
+      "PackagePath": "staticwebassets/images/my3.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/my4.jpg",
+      "PackagePath": "staticwebassets/images/my4.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/our-image1.jpg",
+      "PackagePath": "staticwebassets/images/our-image1.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/our-image2.jpg",
+      "PackagePath": "staticwebassets/images/our-image2.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/our-image3.jpg",
+      "PackagePath": "staticwebassets/images/our-image3.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/search_icon.png",
+      "PackagePath": "staticwebassets/images/search_icon.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/soft.jpg",
+      "PackagePath": "staticwebassets/images/soft.jpg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/test1.png",
+      "PackagePath": "staticwebassets/images/test1.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/test2.png",
+      "PackagePath": "staticwebassets/images/test2.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/test3.png",
+      "PackagePath": "staticwebassets/images/test3.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/top_arrow.png",
+      "PackagePath": "staticwebassets/images/top_arrow.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/top_arrow1.png",
+      "PackagePath": "staticwebassets/images/top_arrow1.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/images/top_arrow2.png",
+      "PackagePath": "staticwebassets/images/top_arrow2.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/.DS_Store",
+      "PackagePath": "staticwebassets/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/bootstrap.js",
+      "PackagePath": "staticwebassets/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/custom.js",
+      "PackagePath": "staticwebassets/js/custom.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/jquery-3.0.0.min.js",
+      "PackagePath": "staticwebassets/js/jquery-3.0.0.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/jquery.mCustomScrollbar.concat.min.js",
+      "PackagePath": "staticwebassets/js/jquery.mCustomScrollbar.concat.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/jquery.min.js",
+      "PackagePath": "staticwebassets/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/jquery.validate.js",
+      "PackagePath": "staticwebassets/js/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/modernizer.js",
+      "PackagePath": "staticwebassets/js/modernizer.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/plugin.js",
+      "PackagePath": "staticwebassets/js/plugin.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/popper.min.js",
+      "PackagePath": "staticwebassets/js/popper.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/.DS_Store",
+      "PackagePath": "staticwebassets/js/revolution/.DS_Store"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/assets/coloredbg.png",
+      "PackagePath": "staticwebassets/js/revolution/assets/coloredbg.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/assets/gridtile.png",
+      "PackagePath": "staticwebassets/js/revolution/assets/gridtile.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/assets/gridtile_3x3.png",
+      "PackagePath": "staticwebassets/js/revolution/assets/gridtile_3x3.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/assets/gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets/js/revolution/assets/gridtile_3x3_white.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/assets/gridtile_white.png",
+      "PackagePath": "staticwebassets/js/revolution/assets/gridtile_white.png"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/assets/loader.gif",
+      "PackagePath": "staticwebassets/js/revolution/assets/loader.gif"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/css/closedhand.html",
+      "PackagePath": "staticwebassets/js/revolution/css/closedhand.html"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/css/layers.css",
+      "PackagePath": "staticwebassets/js/revolution/css/layers.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/css/navigation.css",
+      "PackagePath": "staticwebassets/js/revolution/css/navigation.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/css/openhand.html",
+      "PackagePath": "staticwebassets/js/revolution/css/openhand.html"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/css/settings.css",
+      "PackagePath": "staticwebassets/js/revolution/css/settings.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css",
+      "PackagePath": "staticwebassets/js/revolution/fonts/pe-icon-7-stroke/css/pe-icon-7-stroke.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.eot",
+      "PackagePath": "staticwebassets/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.eot"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.svg",
+      "PackagePath": "staticwebassets/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.svg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.ttf",
+      "PackagePath": "staticwebassets/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.ttf"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.woff",
+      "PackagePath": "staticwebassets/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-strokebb1d.woff"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroked41d.eot",
+      "PackagePath": "staticwebassets/js/revolution/fonts/pe-icon-7-stroke/fonts/Pe-icon-7-stroked41d.eot"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/fonts/revicons/revicons90c6.eot",
+      "PackagePath": "staticwebassets/js/revolution/fonts/revicons/revicons90c6.eot"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/fonts/revicons/revicons90c6.svg",
+      "PackagePath": "staticwebassets/js/revolution/fonts/revicons/revicons90c6.svg"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/fonts/revicons/revicons90c6.ttf",
+      "PackagePath": "staticwebassets/js/revolution/fonts/revicons/revicons90c6.ttf"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/fonts/revicons/revicons90c6.woff",
+      "PackagePath": "staticwebassets/js/revolution/fonts/revicons/revicons90c6.woff"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/.DS_Store",
+      "PackagePath": "staticwebassets/js/revolution/js/.DS_Store"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/extensions/revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/extensions/revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/extensions/revolution.extension.carousel.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/extensions/revolution.extension.carousel.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/extensions/revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/extensions/revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/extensions/revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/extensions/revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/extensions/revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/extensions/revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/extensions/revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/extensions/revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/extensions/revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/extensions/revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/extensions/revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/extensions/revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/extensions/revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/extensions/revolution.extension.video.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/revolution/js/jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets/js/revolution/js/jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/site.js",
+      "PackagePath": "staticwebassets/js/site.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/js/slider-setting.js",
+      "PackagePath": "staticwebassets/js/slider-setting.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/LICENSE",
+      "PackagePath": "staticwebassets/lib/bootstrap"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.js.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery-validation/LICENSE.md",
+      "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery/LICENSE.txt",
+      "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery/dist/jquery.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery/dist/jquery.min.js",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
+    },
+    {
+      "Id": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/wwwroot/lib/jquery/dist/jquery.min.map",
+      "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
+    },
+    {
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.WebApplication1.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.WebApplication1.props",
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.build.WebApplication1.props",
       "PackagePath": "build\\WebApplication1.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.WebApplication1.props",
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildMultiTargeting.WebApplication1.props",
       "PackagePath": "buildMultiTargeting\\WebApplication1.props"
     },
     {
-      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.WebApplication1.props",
+      "Id": "obj/Debug/net6.0/staticwebassets/msbuild.buildTransitive.WebApplication1.props",
       "PackagePath": "buildTransitive\\WebApplication1.props"
     }
   ],

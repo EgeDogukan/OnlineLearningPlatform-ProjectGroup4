@@ -1,27 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {}
+    "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/WebApplication1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\WebApplication1.csproj": {
+    "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/WebApplication1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
+        "projectUniqueName": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/WebApplication1.csproj",
         "projectName": "WebApplication1",
-        "projectPath": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\WebApplication1.csproj",
-        "packagesPath": "C:\\Users\\ROA\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ROA\\Desktop\\Projects\\WebApplication1\\WebApplication1\\obj\\",
+        "projectPath": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/WebApplication1.csproj",
+        "packagesPath": "/Users/mehmetalicelebi/.nuget/packages/",
+        "outputPath": "/Users/mehmetalicelebi/Desktop/Projects/Web/dotnet/CTRL+ Future/OnlineLearningPlatform-ProjectGroup4/WebApplication1/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\ROA\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/mehmetalicelebi/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "/usr/local/share/dotnet/sdk/7.0.307/Sdks/Microsoft.NET.Sdk.Web/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -39,6 +38,46 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.6, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.11, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.16, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -58,7 +97,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.307/RuntimeIdentifierGraph.json"
         }
       }
     }

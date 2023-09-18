@@ -10,7 +10,7 @@ namespace WebApplication1.Models
         public string? Title { get; set; }
         public string? Description { get; set; }
         public User User { get; set; }
-        [ForeignKey("User")]
+        [ForeignKey("UserId")]
         public int? InstructorId { get; set; }
         public string? Category {  get; set; }
         public int? EnrollmentCount {  get; set; }
