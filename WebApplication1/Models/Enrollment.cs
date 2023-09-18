@@ -8,10 +8,10 @@ namespace WebApplication1.Models
         [Key]
         public int EnrollmentId { get; set; }
         public User User { get; set; }
-        [ForeignKey("User")]
+        [ForeignKey("UserId")]
         public int? UserId {  get; set; }
         public Course Course { get; set; }
-        [ForeignKey("Course")]
+        [ForeignKey("CourseId")]
         public int? CourseId {  get; set; }
         public DateTime? EnrollmentDate { get; set; }
 

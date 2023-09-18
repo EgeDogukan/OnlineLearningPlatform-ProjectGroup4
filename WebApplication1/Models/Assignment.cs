@@ -9,7 +9,7 @@ namespace WebApplication1.Models
         public int AssignmentId { get; set; }
         public Course Course { get; set; }
         
-        [ForeignKey("Course")]
+        [ForeignKey("CourseId")]
         public int? CourseId {  get; set; }
         public string? Title {  get; set; }
         public string? Description { get; set; }
