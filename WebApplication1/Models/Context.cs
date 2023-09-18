@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Identity;
 
 namespace WebApplication1.Models
 {
-    public class Context :IdentityDbContext<IdentityUser>
+    public class Context :IdentityDbContext<User>
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Assignment> Assignments { get; set; }
