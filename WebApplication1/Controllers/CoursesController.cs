@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 using WebApplication1.Models;
 
 namespace WebApplication1.Controllers
@@ -14,15 +15,25 @@ namespace WebApplication1.Controllers
     {
         private readonly Context _context;
 
-        public CoursesController(Context context)
+       private readonly SignInManager<User> _signInManager;
+        private readonly UserManager<User> _userManager;
+
+
+        public CoursesController(Context context,SignInManager<User> signInManager, UserManager<User> userManager)
         {
             _context = context;
+            _signInManager = signInManager;
+            _userManager = userManager;
+
         }
 
         // GET: Courses
         public async Task<IActionResult> Index()
         {
             var context = _context.Courses.Include(c => c.User);
+            var currentUser = await _userManager.GetUserAsync(User);
+            var userId = currentUser.Id;
+            ViewBag.InstructorId = userId;
             return View(await context.ToListAsync());
         }
 
@@ -46,7 +57,7 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Courses/Create
-        [Authorize(Roles ="Teacher")]
+        [Authorize(Roles ="Teacher,Admin")]
         public IActionResult Create()
         {
             ViewData["InstructorId"] = new SelectList(_context.Users, "UserId", "UserId");
@@ -58,15 +69,19 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("CourseId,Title,Description,InstructorId,Category,EnrollmentCount,ImageUrl")] Course course)
+        public async Task<IActionResult> Create( Course course)
         {
-            if (ModelState.IsValid)
-            {
+            var currentUser = await _userManager.GetUserAsync(User);
+            course.InstructorId = currentUser.Id;
+            course.User = currentUser;
+
+            //if (ModelState.IsValid)
+            //{
                 _context.Add(course);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["InstructorId"] = new SelectList(_context.Users, "UserId", "UserId", course.InstructorId);
+            //}
+            //ViewData["InstructorId"] = new SelectList(_context.Users, "UserId", "UserId", course.InstructorId);
             return View(course);
         }
 
@@ -99,8 +114,7 @@ namespace WebApplication1.Controllers
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
-            {
+        
                 try
                 {
                     _context.Update(course);
@@ -118,9 +132,9 @@ namespace WebApplication1.Controllers
                     }
                 }
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["InstructorId"] = new SelectList(_context.Users, "UserId", "UserId", course.InstructorId);
-            return View(course);
+            //}
+            //ViewData["InstructorId"] = new SelectList(_context.Users, "UserId", "UserId", course.InstructorId);
+            //return View(course);
         }
 
         // GET: Courses/Delete/5

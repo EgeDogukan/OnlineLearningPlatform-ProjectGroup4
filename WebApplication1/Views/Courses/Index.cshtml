@@ -1,8 +1,16 @@
-﻿@model IEnumerable<WebApplication1.Models.Course>
+﻿@using Microsoft.AspNetCore.Identity
+@using WebApplication1.Models
+
+@model IEnumerable<WebApplication1.Models.Course>
 
 @{
     Layout = null;
+    var user = await userManager.GetUserAsync(User);
+    var role = user.Role;
+    //var CourseId =
+    var enrollment = new Enrollment();
 }
+@inject UserManager<User> userManager
 
 <!DOCTYPE html>
 
@@ -12,62 +20,90 @@
     <title>Index</title>
 </head>
 <body>
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Title)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.User)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Category)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.EnrollmentCount)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.ImageUrl)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Title)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Description)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.User.UserId)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Category)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.EnrollmentCount)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.ImageUrl)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.CourseId">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.CourseId">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.CourseId">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+    <p>
+        <a asp-action="Create">Create New</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Title)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Description)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.User)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Category)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.EnrollmentCount)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ImageUrl)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Title)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Description)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.User.UserId)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Category)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.EnrollmentCount)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ImageUrl)
+                    </td>
+                    @if (role == "Teacher")
+                    {
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.CourseId">Edit</a> |
+                            <a asp-action="Details" asp-route-id="@item.CourseId">Details</a> |
+                            <a asp-action="Delete" asp-route-id="@item.CourseId">Delete</a>
+                        </td>
+                    }
+                    @if (role == "Student")
+                    {
+                        <td>
+                            <form method="post" asp-action="Enroll" asp-controller="Enrollments">
+                                @*<input asp-for="CourseId" value="aaaa"/>*@
+                                @*<label>
+            @item.CourseId
+            @user.Id
+        </label>*@
+                                @{
+                                    enrollment.CourseId = item.CourseId;
+                                    enrollment.UserId = user.Id;
+                                }
+                                @*<input type="hidden" asp-for="UserID" />
+        <input type="hidden" value="@user.Id" />
+        <input type="hidden" asp-for="@item.CourseId" />*@
+
+                                <input type="hidden" asp-for="@enrollment.CourseId" />
+                                <input type="hidden" asp-for="@enrollment.UserId" />
+
+                                <button type="submit">Enroll</button>
+                            </form>
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
 </body>
 </html>

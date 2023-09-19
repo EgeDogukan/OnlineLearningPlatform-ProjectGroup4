@@ -11,7 +11,7 @@ namespace WebApplication1.Models
         public string? Description { get; set; }
         public User User { get; set; }
         [ForeignKey("Id")]
-        public int? InstructorId { get; set; }
+        public string? InstructorId { get; set; }
         public string? Category {  get; set; }
         public int? EnrollmentCount {  get; set; }
         public string? ImageUrl {  get; set; }

@@ -46,7 +46,7 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Enrollments/Create
-        public IActionResult Create()
+        public IActionResult Enroll()
         {
             ViewData["CourseId"] = new SelectList(_context.Courses, "CourseId", "CourseId");
             ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId");
@@ -58,16 +58,20 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EnrollmentId,UserId,CourseId,EnrollmentDate")] Enrollment enrollment)
+        public async Task<IActionResult> Enroll( Enrollment enrollment)
         {
-            if (ModelState.IsValid)
-            {
+
+            enrollment.Course = await _context.Courses.FindAsync(enrollment.CourseId);
+            enrollment.User= await _context.Users.FindAsync(enrollment.UserId);
+            enrollment.EnrollmentDate = DateTime.Now;
+
+            //enrollment.CourseId=
+          
                 _context.Add(enrollment);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
-            }
-            ViewData["CourseId"] = new SelectList(_context.Courses, "CourseId", "CourseId", enrollment.CourseId);
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", enrollment.UserId);
+            //ViewData["CourseId"] = new SelectList(_context.Courses, "CourseId", "CourseId", enrollment.CourseId);
+            //ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", enrollment.UserId);
             return View(enrollment);
         }
 
