@@ -1,4 +1,15 @@
-﻿<!DOCTYPE html>
+﻿@{
+    var user = await UserManager.GetUserAsync(User);
+ }
+  
+
+@using Microsoft.AspNetCore.Identity
+@using WebApplication1.Models
+
+@inject SignInManager<User> SingInManager
+@inject UserManager<User> UserManager
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- basic -->
@@ -69,7 +80,9 @@
                                 </div>
                                 <div class="mean-last">
                                     @*<a class="navbar-brand" asp-area="" asp-controller="" asp-action="Login">Login/Sign Up</a>*@
-                                    <partial class="navbar-brand" name="_LoginPartial"/>
+                                    <partial class="navbar-brand" name="_LoginPartial" />
+                                    asdasd
+
                                 </div>
                             </div>
                         </div>
