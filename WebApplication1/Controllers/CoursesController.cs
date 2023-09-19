@@ -28,14 +28,76 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Courses
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(string searchTitle)
         {
-            var context = _context.Courses.Include(c => c.User);
-            var currentUser = await _userManager.GetUserAsync(User);
-            var userId = currentUser.Id;
-            ViewBag.InstructorId = userId;
-            return View(await context.ToListAsync());
+            var courses = _context.Courses.AsQueryable();
+
+            if (!string.IsNullOrEmpty(searchTitle))
+            {
+                // Filter courses by title if a search query is provided
+                courses = courses.Where(c => c.Title.ToLower().Contains(searchTitle.ToLower()));
+            }
+
+            var courseList = await courses.ToListAsync();
+
+            return View(courseList);
+            //var context = _context.Courses.Include(c => c.User);
+            ////if (!_signInManager.IsSignedIn(User))
+            ////{
+            ////    return RedirectToRoute("/Identity/Account/Login");
+            ////}
+            ////var currentUser = await _userManager.GetUserAsync(User);
+            ////var userId = currentUser.Id;
+            ////ViewBag.InstructorId = userId;
+
+            //return View(await context.ToListAsync());
         }
+
+        public async Task<IActionResult> MyCourses()
+        {
+            var user = await _userManager.GetUserAsync(User);
+
+            var myEnrollments = _context.Enrollments.AsQueryable();
+
+            myEnrollments = myEnrollments.Where(e => e.UserId == user.Id);
+
+            var enrollmentsList =await myEnrollments.ToListAsync();
+            var courseList = new List<Course>();
+
+            foreach (var item in enrollmentsList)
+            {
+                courseList.Add(_context.Courses.Find(item.CourseId));
+            }
+
+
+            return View(courseList);
+        }
+
+        //public async Task<IActionResult> Search(string searchTitle)
+        //{
+        //    var courses = _context.Courses.AsQueryable();
+
+        //    if (!string.IsNullOrEmpty(searchTitle))
+        //    {
+        //        // Filter courses by title if a search query is provided
+        //        courses = courses.Where(c => c.Title.ToLower().Contains(searchTitle.ToLower()));
+        //    }
+
+        //    var courseList = await courses.ToListAsync();
+
+        //    return RedirectToAction("Index",courseList);
+        //    //var context = _context.Courses.Include(c => c.User);
+        //    ////if (!_signInManager.IsSignedIn(User))
+        //    ////{
+        //    ////    return RedirectToRoute("/Identity/Account/Login");
+        //    ////}
+        //    ////var currentUser = await _userManager.GetUserAsync(User);
+        //    ////var userId = currentUser.Id;
+        //    ////ViewBag.InstructorId = userId;
+
+        //    //return View(await context.ToListAsync());
+        //}
+
 
         // GET: Courses/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -113,7 +175,8 @@ namespace WebApplication1.Controllers
             {
                 return NotFound();
             }
-
+       var user= await _userManager.GetUserAsync(User);
+            course.InstructorId = user.Id;
         
                 try
                 {

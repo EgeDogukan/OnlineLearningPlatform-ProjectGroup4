@@ -6,7 +6,7 @@
 @using Microsoft.AspNetCore.Identity
 @using WebApplication1.Models
 
-@inject SignInManager<User> SingInManager
+@inject SignInManager<User> SignInManager
 @inject UserManager<User> UserManager
 
 <!DOCTYPE html>
@@ -68,21 +68,36 @@
                                     <div class="limit-box">
                                         <nav class="main-menu ">
                                             <ul class="menu-area-main">
-                                                <li class="active"> <a href="Home/Index">Home</a> </li>
-                                                <li> <a href="#courses">My Courses </a> </li>
-                                                <li> <a href="#about">About</a> </li>
-                                                <li> <a href="#learn">My Profile</a> </li>
-                                                <li> <a href="#important">Become an Instructor</a> </li>
-                                                <li> <a href="#contact">Contact</a> </li>
+                                                <li class="active"> <a href="/">Home</a> </li>
+                                                @if (SignInManager.IsSignedIn(User))
+                                                {
+                                                    <li> <a href="/courses/mycourses">My Courses </a> </li>
+                                                }
+                                              
+                                                <li> <a href="/courses">All Courses </a> </li>
                                             </ul>
                                         </nav>
                                     </div>
                                 </div>
                                 <div class="mean-last">
-                                    @*<a class="navbar-brand" asp-area="" asp-controller="" asp-action="Login">Login/Sign Up</a>*@
-                                    <partial class="navbar-brand" name="_LoginPartial" />
-                                    asdasd
-
+                                    @if (!SignInManager.IsSignedIn(User))
+                                    {
+                                        <a class="navbar-brand" asp-area="Identity" asp-page="/Account/Manage/Index">Login/Sign Up</a>
+                                    }
+                                    else
+                                    {
+                                        @*<form class="form-inline" asp-controller="Courses" asp-action="Index" method="get">
+                <div class="input-group">
+                    <input type="text" class="form-control" name="searchTitle" placeholder="Search by Title">
+                    <div class="input-group-append">
+                        <button class="btn btn-outline-secondary" type="submit">Search</button>
+                    </div>
+                </div>
+            </form>*@
+                                        <form id="logoutForm" class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
+                                            <button id="logout" type="submit" class="nav-link btn btn-link ">Logout</button>
+                                        </form>
+                                    }
                                 </div>
                             </div>
                         </div>

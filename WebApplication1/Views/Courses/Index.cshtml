@@ -2,108 +2,88 @@
 @using WebApplication1.Models
 
 @model IEnumerable<WebApplication1.Models.Course>
+@inject UserManager<User> userManager
 
 @{
-    Layout = null;
+    Layout = "_Layout";
     var user = await userManager.GetUserAsync(User);
-    var role = user.Role;
+    var role = "";
+    if (user != null)
+    {
+        role = user.Role;
+
+    }
     //var CourseId =
     var enrollment = new Enrollment();
 }
-@inject UserManager<User> userManager
 
-<!DOCTYPE html>
-
-<html>
-<head>
-    <meta name="viewport" content="width=device-width" />
-    <title>Index</title>
-</head>
 <body>
-    <p>
-        <a asp-action="Create">Create New</a>
-    </p>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Title)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Description)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.User)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Category)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.EnrollmentCount)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.ImageUrl)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
+    <div class="container mt-5">
+        <h1>Courses</h1>
+        <div class="my-5 row justify-content-between">
+            <div class="search-box col-md-6">
+                <form class="form-inline" asp-controller="Courses" asp-action="Index" method="get">
+                    <div class="input-group">
+                        <input type="text" class="form-control" name="searchTitle" placeholder="Search by Title" aria-label="Search" aria-describedby="search-addon">
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="submit" id="search-addon">
+                                <i class="fa fa-search"></i> Search
+                            </button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            @if (role == "Teacher")
+            {
+                <div class="">
+                    <a class="btn btn-primary" href="/courses/create">Create new course</a>
+
+                </div>
+
+            }
+        </div>
+        <div class="row">
             @foreach (var item in Model)
             {
-                <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Title)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Description)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.User.UserId)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Category)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.EnrollmentCount)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.ImageUrl)
-                    </td>
-                    @if (role == "Teacher")
-                    {
-                        <td>
-                            <a asp-action="Edit" asp-route-id="@item.CourseId">Edit</a> |
-                            <a asp-action="Details" asp-route-id="@item.CourseId">Details</a> |
-                            <a asp-action="Delete" asp-route-id="@item.CourseId">Delete</a>
-                        </td>
-                    }
-                    @if (role == "Student")
-                    {
-                        <td>
-                            <form method="post" asp-action="Enroll" asp-controller="Enrollments">
-                                @*<input asp-for="CourseId" value="aaaa"/>*@
-                                @*<label>
-            @item.CourseId
-            @user.Id
-        </label>*@
-                                @{
-                                    enrollment.CourseId = item.CourseId;
-                                    enrollment.UserId = user.Id;
+                <div class="col-md-4 mb-4">
+                    <div class="card">
+                        <img src="@item.ImageUrl" class="card-img-top" alt="@item.Title">
+                        <div class="card-body">
+                            <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
+                            <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+                            <p class="card-text">Category: @Html.DisplayFor(modelItem => item.Category)</p>
+                            <p class="card-text">Created By: @Html.DisplayFor(modelItem => item.User.UserName)</p>
+                            <p class="card-text">Enrollment Count: @Html.DisplayFor(modelItem => item.EnrollmentCount)</p>
+                            @if (user != null)
+                            {
+                                @if (role == "Teacher" && user.Id == item.InstructorId)
+                                {
+                                    <a asp-action="Edit" asp-route-id="@item.CourseId" class="btn btn-warning">Edit</a>
+                                    <a asp-action="Details" asp-route-id="@item.CourseId" class="btn btn-info">Details</a>
+                                    <a asp-action="Delete" asp-route-id="@item.CourseId" class="btn btn-danger">Delete</a>
                                 }
-                                @*<input type="hidden" asp-for="UserID" />
-        <input type="hidden" value="@user.Id" />
-        <input type="hidden" asp-for="@item.CourseId" />*@
+                                @if (role == "Student")
+                                {
 
-                                <input type="hidden" asp-for="@enrollment.CourseId" />
-                                <input type="hidden" asp-for="@enrollment.UserId" />
 
-                                <button type="submit">Enroll</button>
-                            </form>
-                        </td>
-                    }
-                </tr>
+                                    <form method="post" asp-action="Enroll" asp-controller="Enrollments">
+                                        <input type="hidden" asp-for="@enrollment.CourseId" value="@item.CourseId" />
+                                        <input type="hidden" asp-for="@enrollment.UserId" value="@user.Id" />
+                                        <button type="submit" class="btn btn-success">Enroll</button>
+                                    </form>
+
+                                    @*<p>Enrolled</p>*@
+                                    }
+                            }
+                        </div>
+                    </div>
+                </div>
             }
-        </tbody>
-    </table>
+        </div>
+    </div>
+
+    <!-- Include Bootstrap JS and jQuery (optional) -->
+    @*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>*@
 </body>
-</html>

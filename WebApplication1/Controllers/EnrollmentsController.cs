@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization; 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -19,6 +20,7 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Enrollments
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Index()
         {
             var context = _context.Enrollments.Include(e => e.Course).Include(e => e.User);
@@ -69,7 +71,7 @@ namespace WebApplication1.Controllers
           
                 _context.Add(enrollment);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
+                return RedirectToAction("Index","Courses",new {area=""});
             //ViewData["CourseId"] = new SelectList(_context.Courses, "CourseId", "CourseId", enrollment.CourseId);
             //ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", enrollment.UserId);
             return View(enrollment);
@@ -172,6 +174,12 @@ namespace WebApplication1.Controllers
         private bool EnrollmentExists(int id)
         {
           return (_context.Enrollments?.Any(e => e.EnrollmentId == id)).GetValueOrDefault();
+        }
+        public bool CheckIfUserIsEnrolled(string userId, int courseId)
+        {
+            // Burada kullanıcının kayıtlı olup olmadığını kontrol etmek için gerekli sorguyu yazın
+            return _context.Enrollments
+                .Any(e => e.UserId == userId && e.CourseId == courseId);
         }
     }
 }
