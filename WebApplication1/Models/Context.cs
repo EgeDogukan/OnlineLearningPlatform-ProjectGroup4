@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using WebApplication1.Models;
 
 namespace WebApplication1.Models
 {
@@ -17,6 +18,10 @@ namespace WebApplication1.Models
         {
 
         }
+
+
+
+        public DbSet<WebApplication1.Models.CourseContent>? CourseContent { get; set; }
 
        }    
     }

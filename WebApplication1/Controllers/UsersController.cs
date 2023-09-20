@@ -28,6 +28,13 @@ namespace WebApplication1.Controllers
                           View(await _context.Users.ToListAsync()) :
                           Problem("Entity set 'Context.Users'  is null.");
         }
+        
+        [Authorize(Roles = "Admin")]
+        public async Task<IActionResult> AdminPanel()
+        {
+            return View();
+        }
+
 
         // GET: Users/Details/5
         public async Task<IActionResult> Details(string? id)

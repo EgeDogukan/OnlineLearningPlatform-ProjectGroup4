@@ -16,11 +16,18 @@
                 <div class="card">
                     <img src="@item.ImageUrl" class="card-img-top" alt="@item.Title">
                     <div class="card-body">
+                        
                         <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
                         <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
                         <p class="card-text">Category: @Html.DisplayFor(modelItem => item.Category)</p>
                         <p class="card-text">Created By: @Html.DisplayFor(modelItem => item.User.UserName)</p>
                         <p class="card-text">Enrollment Count: @Html.DisplayFor(modelItem => item.EnrollmentCount)</p>
+                        @if (user.Role == "Teacher" && user.Id == item.InstructorId)
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.CourseId" class="btn btn-warning">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.CourseId" class="btn btn-info">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.CourseId" class="btn btn-danger">Delete</a>
+                        }
                         @*<form method="post" asp-action="Unenroll" asp-controller="Enrollments">
                             <input type="hidden" asp-for="item.CourseId" value="@item.CourseId" />
                             <input type="hidden" asp-for="user.Id" value="@user.Id" />

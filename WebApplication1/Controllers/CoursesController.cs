@@ -57,20 +57,40 @@ namespace WebApplication1.Controllers
         {
             var user = await _userManager.GetUserAsync(User);
 
-            var myEnrollments = _context.Enrollments.AsQueryable();
-
-            myEnrollments = myEnrollments.Where(e => e.UserId == user.Id);
-
-            var enrollmentsList =await myEnrollments.ToListAsync();
-            var courseList = new List<Course>();
-
-            foreach (var item in enrollmentsList)
+            if(user.Role == "Student")
             {
-                courseList.Add(_context.Courses.Find(item.CourseId));
+                var myEnrollments = _context.Enrollments.AsQueryable();
+
+                myEnrollments = myEnrollments.Where(e => e.UserId == user.Id);
+                var enrollmentsList = await myEnrollments.ToListAsync();
+                var courseList = new List<Course>();
+
+                foreach (var item in enrollmentsList)
+                {
+                    courseList.Add(_context.Courses.Find(item.CourseId));
+                }
+                return View(courseList);
             }
+            if (user.Role == "Teacher")
+            {
+                var myCourses = _context.Courses.AsQueryable();
+                myCourses = myCourses.Where(e => e.InstructorId == user.Id);
+                var courseList = await myCourses.ToListAsync();
+                return View(courseList);
+
+            }
+            if(user.Role == "Admin")
+            {
+                var courseList = _context.Courses.AsQueryable();
+                return View(courseList);
+
+            }
+            return RedirectToAction("Account/Login", "Identity");
+           
+            
 
 
-            return View(courseList);
+            
         }
 
         //public async Task<IActionResult> Search(string searchTitle)
@@ -110,16 +130,19 @@ namespace WebApplication1.Controllers
             var course = await _context.Courses
                 .Include(c => c.User)
                 .FirstOrDefaultAsync(m => m.CourseId == id);
+            var courseContents = _context.CourseContent.AsQueryable();
+            courseContents = courseContents.Where(c => c.CourseId == id);
             if (course == null)
             {
                 return NotFound();
             }
-
+            ViewBag.courseContents = courseContents;
             return View(course);
         }
 
         // GET: Courses/Create
         [Authorize(Roles ="Teacher,Admin")]
+        
         public IActionResult Create()
         {
             ViewData["InstructorId"] = new SelectList(_context.Users, "UserId", "UserId");

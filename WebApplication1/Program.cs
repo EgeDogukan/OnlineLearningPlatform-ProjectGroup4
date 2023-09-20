@@ -64,12 +64,14 @@ using (var scope = app.Services.CreateScope())
 
     string email = "admin@admin.com";
     string password = "Test1234.";
+    string role = "Admin";
 
     if (await userManager.FindByEmailAsync(email)==null)
     {
         var user = new User();
         user.Email = email;
         user.UserName = email;
+        user.Role = role;
         user.EmailConfirmed = true;
 
         await userManager.CreateAsync(user, password);

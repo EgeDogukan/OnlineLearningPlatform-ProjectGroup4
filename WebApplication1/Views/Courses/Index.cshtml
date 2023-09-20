@@ -54,6 +54,12 @@
                             <p class="card-text">Category: @Html.DisplayFor(modelItem => item.Category)</p>
                             <p class="card-text">Created By: @Html.DisplayFor(modelItem => item.User.UserName)</p>
                             <p class="card-text">Enrollment Count: @Html.DisplayFor(modelItem => item.EnrollmentCount)</p>
+                            @if (role == "Admin")
+                            {
+                                <a asp-action="Edit" asp-route-id="@item.CourseId" class="btn btn-warning">Edit</a>
+                                <a asp-action="Details" asp-route-id="@item.CourseId" class="btn btn-info">Details</a>
+                                <a asp-action="Delete" asp-route-id="@item.CourseId" class="btn btn-danger">Delete</a>
+                            }
                             @if (user != null)
                             {
                                 @if (role == "Teacher" && user.Id == item.InstructorId)
