@@ -46,8 +46,8 @@
             @foreach (var item in Model)
             {
                 <div class="col-md-4 mb-4">
-                    <div class="card">
-                        <img src="@item.ImageUrl" class="card-img-top" alt="@item.Title">
+                    <div class="card" style="height:500px;" >
+                        <img src="@item.ImageUrl" class="card-img-top" style="height: 300px;" alt="@item.Title">
                         <div class="card-body">
                             <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
                             <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
@@ -75,11 +75,19 @@
                                     <form method="post" asp-action="Enroll" asp-controller="Enrollments">
                                         <input type="hidden" asp-for="@enrollment.CourseId" value="@item.CourseId" />
                                         <input type="hidden" asp-for="@enrollment.UserId" value="@user.Id" />
-                                        <button type="submit" class="btn btn-success">Enroll</button>
+                                       
+                                            @if (ViewBag.enrolledIds.Contains(item.CourseId) )
+                                            {
+                                                <h1>Enrolled</h1>
+                                            }
+                                            else
+                                            {
+                                                <button type="submit" class="btn btn-success">Enroll</button>
+                                            }
                                     </form>
 
-                                    @*<p>Enrolled</p>*@
-                                    }
+
+                                }
                             }
                         </div>
                     </div>
