@@ -31,7 +31,11 @@ namespace WebApplication1.Controllers
         public async Task<IActionResult> Index(string searchTitle)
         {
             var courses = _context.Courses.AsQueryable();
-
+            var user = await _userManager.GetUserAsync(User);
+            var enrolledCourses = _context.Enrollments.AsQueryable();
+            enrolledCourses = enrolledCourses.Where(e => e.UserId == user.Id);
+            var enrolledIds = enrolledCourses.Select(e => e.CourseId).ToList();
+            ViewBag.enrolledIds = enrolledIds;
             if (!string.IsNullOrEmpty(searchTitle))
             {
                 // Filter courses by title if a search query is provided
@@ -136,7 +140,7 @@ namespace WebApplication1.Controllers
             {
                 return NotFound();
             }
-            ViewBag.courseContents = courseContents;
+            ViewBag.courseContents = await courseContents.ToListAsync();
             return View(course);
         }
 

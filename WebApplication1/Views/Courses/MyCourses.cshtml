@@ -14,9 +14,11 @@
         {
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="@item.ImageUrl" class="card-img-top" alt="@item.Title">
+                    <a href="@Url.Action("Details", "Courses", new { id = item.CourseId })">
+                        <img src="@item.ImageUrl" class="card-img-top" style="height: 300px;" alt="@item.Title">
+                    </a>
                     <div class="card-body">
-                        
+
                         <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
                         <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
                         <p class="card-text">Category: @Html.DisplayFor(modelItem => item.Category)</p>
@@ -29,10 +31,10 @@
                             <a asp-action="Delete" asp-route-id="@item.CourseId" class="btn btn-danger">Delete</a>
                         }
                         @*<form method="post" asp-action="Unenroll" asp-controller="Enrollments">
-                            <input type="hidden" asp-for="item.CourseId" value="@item.CourseId" />
-                            <input type="hidden" asp-for="user.Id" value="@user.Id" />
-                            <button type="submit" class="btn btn-danger">Unenroll</button>
-                        </form>*@
+                <input type="hidden" asp-for="item.CourseId" value="@item.CourseId" />
+                <input type="hidden" asp-for="user.Id" value="@user.Id" />
+                <button type="submit" class="btn btn-danger">Unenroll</button>
+            </form>*@
                     </div>
                 </div>
             </div>
