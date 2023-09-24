@@ -22,10 +22,6 @@
             @*<input type="hidden" asp-for="Id" />*@
             <input type="hidden" asp-for="UserId" />
             <input type="hidden" value="@Model.Id" />
-
-            <label>
-                @Model.Id
-            </label>
             <div class="form-group">
                 <label asp-for="UserName" class="control-label"></label>
                 <input asp-for="UserName" class="form-control" />
@@ -35,11 +31,6 @@
                 <label asp-for="Email" class="control-label"></label>
                 <input asp-for="Email" class="form-control" />
                 <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <label asp-for="Password" class="control-label"></label>
-                <input asp-for="Password" class="form-control" />
-                <span asp-validation-for="Password" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="Role" class="control-label"></label>
