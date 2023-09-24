@@ -69,13 +69,20 @@
                                         <nav class="main-menu ">
                                             <ul class="menu-area-main">
                                                 <li class="active"> <a href="/">Home</a> </li>
-                                                @if (SignInManager.IsSignedIn(User))
+                                                @if (SignInManager.IsSignedIn(User) && user?.Role != "Admin")
                                                 {
-                                      
+
                                                     <li> <a href="/courses/mycourses">My Courses </a> </li>
                                                 }
-                                              
+                                                @if (user?.Role == "Admin")
+                                                {
+                                                    <li> <a href="/Users">Users</a> </li>
+                                                    <li> <a href="/Enrollments">Enrollments</a> </li>
+
+                                                }
+
                                                 <li> <a href="/courses">All Courses </a> </li>
+
                                             </ul>
                                         </nav>
                                     </div>
@@ -110,7 +117,7 @@
             <!-- end header -->
         </div>
     </header>
-            <div class="container">
+            <div class="container mt-5">
                     @RenderBody()
             </div>
 
