@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WebApplication1.Models.Course>
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<User> userManager
+
+@{
+    Layout = "_Layout";
+    var user = await userManager.GetUserAsync(User);
+}
+
+<div class="container mt-5">
+    <h1>Enrolled Courses</h1>
+    <div class="row">
+        @foreach (var item in Model)
+        {
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <a href="@Url.Action("Details", "Courses", new { id = item.CourseId })">
+                        <img src="@item.ImageUrl" class="card-img-top" style="height: 300px;" alt="@item.Title">
+                    </a>
+                    <div class="card-body">
+
+                        <h5 class="card-title">@Html.DisplayFor(modelItem => item.Title)</h5>
+                        <p class="card-text">@Html.DisplayFor(modelItem => item.Description)</p>
+                        <p class="card-text">Category: @Html.DisplayFor(modelItem => item.Category)</p>
+                        <p class="card-text">Created By: @Html.DisplayFor(modelItem => item.User.UserName)</p>
+                        <p class="card-text">Enrollment Count: @Html.DisplayFor(modelItem => item.EnrollmentCount)</p>
+                        @if (user.Role == "Teacher" && user.Id == item.InstructorId)
+                        {
+                            <a asp-action="Edit" asp-route-id="@item.CourseId" class="btn btn-warning">Edit</a>
+                            <a asp-action="Details" asp-route-id="@item.CourseId" class="btn btn-info">Details</a>
+                            <a asp-action="Delete" asp-route-id="@item.CourseId" class="btn btn-danger">Delete</a>
+                        }
+                        @*<form method="post" asp-action="Unenroll" asp-controller="Enrollments">
+                <input type="hidden" asp-for="item.CourseId" value="@item.CourseId" />
+                <input type="hidden" asp-for="user.Id" value="@user.Id" />
+                <button type="submit" class="btn btn-danger">Unenroll</button>
+            </form>*@
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

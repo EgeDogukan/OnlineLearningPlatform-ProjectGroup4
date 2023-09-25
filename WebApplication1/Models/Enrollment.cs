@@ -8,8 +8,8 @@ namespace WebApplication1.Models
         [Key]
         public int EnrollmentId { get; set; }
         public User User { get; set; }
-        [ForeignKey("UserId")]
-        public int? UserId {  get; set; }
+        [ForeignKey("Id")]
+        public string? UserId {  get; set; }
         public Course Course { get; set; }
         [ForeignKey("CourseId")]
         public int? CourseId {  get; set; }

@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using WebApplication1.Models;
 
 namespace WebApplication1.Models
 {
-    public class Context :IdentityDbContext<IdentityUser>
+    public class Context :IdentityDbContext<User>
     {
         public DbSet<User> Users { get; set; }
         public DbSet<Assignment> Assignments { get; set; }
@@ -17,6 +18,10 @@ namespace WebApplication1.Models
         {
 
         }
+
+
+
+        public DbSet<WebApplication1.Models.CourseContent>? CourseContent { get; set; }
 
        }    
     }

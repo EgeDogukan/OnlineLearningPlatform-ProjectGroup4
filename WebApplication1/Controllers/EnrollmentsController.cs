@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authorization; 
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -19,6 +20,7 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Enrollments
+        [Authorize(Roles ="Admin")]
         public async Task<IActionResult> Index()
         {
             var context = _context.Enrollments.Include(e => e.Course).Include(e => e.User);
@@ -46,7 +48,7 @@ namespace WebApplication1.Controllers
         }
 
         // GET: Enrollments/Create
-        public IActionResult Create()
+        public IActionResult Enroll()
         {
             ViewData["CourseId"] = new SelectList(_context.Courses, "CourseId", "CourseId");
             ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId");
@@ -58,16 +60,20 @@ namespace WebApplication1.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("EnrollmentId,UserId,CourseId,EnrollmentDate")] Enrollment enrollment)
+        public async Task<IActionResult> Enroll( Enrollment enrollment)
         {
-            if (ModelState.IsValid)
-            {
+
+            enrollment.Course = await _context.Courses.FindAsync(enrollment.CourseId);
+            enrollment.User= await _context.Users.FindAsync(enrollment.UserId);
+            enrollment.EnrollmentDate = DateTime.Now;
+
+            //enrollment.CourseId=
+          
                 _context.Add(enrollment);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            ViewData["CourseId"] = new SelectList(_context.Courses, "CourseId", "CourseId", enrollment.CourseId);
-            ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", enrollment.UserId);
+                return RedirectToAction("Index","Courses",new {area=""});
+            //ViewData["CourseId"] = new SelectList(_context.Courses, "CourseId", "CourseId", enrollment.CourseId);
+            //ViewData["UserId"] = new SelectList(_context.Users, "UserId", "UserId", enrollment.UserId);
             return View(enrollment);
         }
 
@@ -168,6 +174,12 @@ namespace WebApplication1.Controllers
         private bool EnrollmentExists(int id)
         {
           return (_context.Enrollments?.Any(e => e.EnrollmentId == id)).GetValueOrDefault();
+        }
+        public bool CheckIfUserIsEnrolled(string userId, int courseId)
+        {
+            // Burada kullanıcının kayıtlı olup olmadığını kontrol etmek için gerekli sorguyu yazın
+            return _context.Enrollments
+                .Any(e => e.UserId == userId && e.CourseId == courseId);
         }
     }
 }
